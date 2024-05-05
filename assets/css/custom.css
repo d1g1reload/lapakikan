@@ -14,3 +14,24 @@
     color: #1d1c1c;
     border: 1px solid #83C1CE;
 }
+
+.card-custom {
+    border: 1px solid #83C1CE !important;
+}
+
+.card-custom a {
+    color: #1d1c1c;
+}
+
+.text-custom {
+    color: #83C1CE;
+}
+
+.btn-outline-review {
+    color: #B99470;
+    border: 1px solid #b68a51 !important;
+}
+
+.color-menu {
+    color: #DEAC80;
+}
