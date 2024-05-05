@@ -57,9 +57,19 @@ $route['translate_uri_dashes'] = FALSE;
 /**
  * Frontend
  */
+
 $route['auth/welcome'] = 'Main/page_auth';
 $route['auth/login'] = 'Main/page_login';
 $route['auth/forgot'] = 'Main/page_forgot';
 $route['auth/register'] = 'Main/page_registration';
 $route['auth/register/post'] = 'Auth/registration';
 $route['auth/otp/post'] = 'Auth/process_otp';
+$route['auth/login/post'] = 'Auth/login';
+
+
+/**
+ * Backend
+ */
+
+$route['dashboard'] = 'Backend/Dashboard';
+$route['produk/detail'] = 'Backend/Dashboard/product_detail';
