@@ -1,0 +1,16 @@
+.btn-custom {
+    background-color: #83C1CE !important;
+    color: #fff;
+    border: 1px solid #83C1CE;
+}
+
+.btn-outline-custom {
+    color: #1d1c1c;
+    border: 1px solid #83C1CE;
+}
+
+.btn-outline-custom:focus {
+    background-color: #83C1CE;
+    color: #1d1c1c;
+    border: 1px solid #83C1CE;
+}
